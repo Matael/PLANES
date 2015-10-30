@@ -10,8 +10,8 @@ PLANES also provides a context to test hybrid methods for acoustical simulation.
 
 .. _LAUM: http://laum.univ-lemans.fr
 
-
-
 .. toctree::
    :maxdepth: 2
 
+   introduction
+   getting_started
