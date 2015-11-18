@@ -38,13 +38,8 @@ eval(['addpath(' list_path ');'])
 
 warning('off','MATLAB:nearlySingularMatrix')
 
-if exist('name')~=1
-	name.project_directory=['../../Projects/' project.name '/'];
-end
 
-if name.project_directory(end)~='/'
-	name.project_directory = [name.project_directory '/'];
-end
+name.project_directory=['../../Projects/' project.name '/'];
 
 if project.num==0
     name.file=[name.project_directory project.name];
